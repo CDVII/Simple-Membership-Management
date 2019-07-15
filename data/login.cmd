@@ -1,4 +1,4 @@
-@echo off
+ï»¿@echo off
 set /p id=ID:
 set /p pw=PassWord:
 for /f "tokens=1-4 delims=," %%i in (data\member.txt) do (
@@ -11,9 +11,9 @@ for /f "tokens=1-4 delims=," %%i in (data\member.txt) do (
 	)
 )
 
-echo ·Î±×ÀÎ ½ÇÆĞ
+echo ë¡œê·¸ì¸ ì‹¤íŒ¨
 start.cmd
 
 :success
-echo ·Î±×ÀÎ ¼º°ø
+echo ë¡œê·¸ì¸ ì„±ê³µ
 data\menu.cmd %id% %pw% %level% %money%
