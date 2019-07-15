@@ -10,7 +10,7 @@ for /f "tokens=1-4 delims=," %%i in (data\member.txt) do (
 		)
 	)
 )
-echo 로그인실패
+echo 로그인 실패
 start.cmd
 
 :success
